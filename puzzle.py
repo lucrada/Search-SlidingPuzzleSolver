@@ -146,7 +146,7 @@ class Puzzle:
                 print()
                 self.printSol()
                 print()
-                print("\033[92mSolution found!\033[0m")
+                print("Solution found!")
                 print()
                 return
             self.explored_states.append(node.state)
